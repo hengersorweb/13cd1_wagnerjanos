@@ -8,10 +8,10 @@ const Navbar = (()=>{
         return(
             <div>
 
-                <nav>
-                    <Link to='/'>Főoldal</Link>
-                    <NavLink to='/ermesek'>Az olimpia érmesei</NavLink>
-                    <NavLink to='/mermesek'>Az olimpia magyar érmesei</NavLink>
+                <nav className="f4 fw6 db black no-underline underline-hover" href="#0">
+                    <Link className="pa3 pa4-ns" to='/'>Főoldal</Link>
+                    <NavLink className="pa3 pa4-ns" to='/ermesek'>Az olimpia érmesei</NavLink>
+                    <NavLink className="pa3 pa4-ns" to='/mermesek'>Az olimpia magyar érmesei</NavLink>
                 </nav>
                
             </div>
